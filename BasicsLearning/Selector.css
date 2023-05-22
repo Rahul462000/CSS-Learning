@@ -9,3 +9,21 @@ p{
 .green-text{
     color: rgb(136, 219, 136);
 }
+
+#head{
+    font-size: 55px;
+}
+.underline-h{
+    text-decoration: underline;
+}
+
+h2{
+    color: chartreuse;
+}
+#heading{
+    color: rgb(219, 75, 75);
+}
+
+.normal{
+    color: purple;
+}
