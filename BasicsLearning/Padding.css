@@ -1,0 +1,12 @@
+#padding{
+    border:2px solid red;
+    /* padding top will create a gap between from top side of the content */
+    /* padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30%;
+    padding-right: 30%; */
+
+    /* shortcut for adding padding in the content */
+    /* first value 20% is the top and bottom and 15% is the left and right value */
+    padding: 20% 15%;
+}

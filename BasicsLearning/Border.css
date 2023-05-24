@@ -1,0 +1,32 @@
+#border{
+    /* border style */
+    /* border-style: dotted; */
+    /* border-style: outset; */
+    /* border-style: inset; */
+    /* border-style: groove; */
+    /* border-style: ridge; */
+    /* border style works like first  top>right>bottom>left */
+    /* border-style: solid dotted inset ridge; */
+    /* border-style: solid; */
+    /* same from top>right>bottom>left */
+    /* border-width: 5px 2px 1px 3px; */
+    /* border-width: 3px; */
+    /* multiple color in one border top>right>bottom>left */
+    /* border-color: red green yellow blue ; */
+    /* border-color: red; */
+
+    /* adding border shortcut */
+    border: 3px solid red;
+    /* border style for one side */
+    /* border-top-style:solid ;
+    border-top-width:4px ;
+    border-top-color:red ; */
+
+    /* border-radius: 20px; */
+    /* border-radius: 20px 10px 5px 3px; */
+    /* usepercentage in border radious like 50% to make circle over images and text area */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 50px;
+}
