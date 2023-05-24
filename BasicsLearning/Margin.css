@@ -1,0 +1,34 @@
+.margin{
+    border: 1px solid red;
+    padding: 25px 50px 30px 70px;
+}
+/* here we have use the id for margin selector in css */
+#margin1{
+margin-bottom: 30px;
+}
+#margin2{
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    /* margin: 50px; */
+    /* or top,right,bottom,left */
+    /* margin: 50px 48px 50px 48px; */
+    /* in margin we can use the minus value to make a element overlap another */
+    /* margin-top: -35px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    /* to make horizontal center we use margin */
+    /* width: 200px; */
+    /* below will make the element in center with 20px marin from top and bottom and left and right marin with auto value to make the element in center */
+    /* margin: 20px auto; */
+    /* below is the demonstration of margin collapse where the top element marignt-bottom and second marin-top values are given and only the highest value eill be take into consideration */
+    /* but in case of left and right values they get added up then taken into consideratin */
+    margin-top: 50px;
+}
+
+
+body{
+    border: 3px dotted rgb(45, 22, 22);
+}
