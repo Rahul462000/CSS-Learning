@@ -1,9 +1,47 @@
-#Text{
+#Text1{
     width: 400px;
     border: 2px solid red;
-    padding: 20px;
+    /* padding: 20px; */
     color: blueviolet;
     /* text-align: center; */
     /* justify value will take the complete space */
-    text-align: justify;
+    /* text-align: justify; */
+    /* direction is used in css to give the direction to paragraph from which direction to start rtl stands for right to left and ltr for left to right */
+    /* direction: rtl; */
+    /* text-decoration: line-through; */
+    text-transform: capitalize;
+    /* line-height will create a gap between the lines */
+    /* line-height: 25px; */
+    /* first text letter space from the border line */
+    /* text-indent: 30px; */
+    /* space between the letters  */
+    /* letter-spacing: 2px; */
+    /* word spacing */
+    word-spacing: 3px;
+    /* white-space: pre; */
+    /* if word is bigger than the container then use word-wrap  */
+    word-wrap: break-word;
+}
+#shadow{
+    font-size: 70px;
+    /* textshadow have four things horizontally shadow is how much far vertically shadow and how much blur and color of the shadow */
+    text-shadow: 5px 10px 5px red ;
+
+}
+#horizontal{
+    border: 2px solid red;
+    width: 500px;
+    writing-mode: vertical-lr;
+}
+
+#Text2{
+    width: 600px;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px;
+}
+/* here we are aligning the image with text their for we are verticle aligning the image with different values like middle,top  */
+img{
+    border: 4px dotted red;
+    vertical-align: middle;
 }
