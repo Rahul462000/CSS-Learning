@@ -1,0 +1,26 @@
+a{
+    /* to remove the under line from the anchor tag link */
+    text-decoration: none;
+    font-size: 70px;
+
+}
+
+/* their are four state of links */
+/* 1.link */
+/* 2.visted */
+/* 3.hover */
+/* 4.active(click) */
+a:link{
+color: yellowgreen;
+}
+a.visited{
+color: black;
+}
+a.hover{
+    color: rgb(210, 147, 30);
+
+}
+a.active{
+    color: red;
+
+}

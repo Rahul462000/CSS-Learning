@@ -25,7 +25,7 @@
 #shadow{
     font-size: 70px;
     /* textshadow have four things horizontally shadow is how much far vertically shadow and how much blur and color of the shadow */
-    text-shadow: 5px 10px 5px red ;
+    text-shadow: 8px 10px 8px red ;
 
 }
 #horizontal{
