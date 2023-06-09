@@ -22,13 +22,20 @@
     background-size: cover; */
 
     /* two background photo at same time */
-    background-image: url('img/code-img.jpg') ,url('img/transparent.jpg');
-    background-repeat: no-repeat repeat;
-    background-position: left top, right top;
+    /* background-image: url('img/code-img.jpg') ,url('img/transparent.jpg'); */
+    /* background-repeat: no-repeat repeat;
+    background-position: left top, right top; */
 
 
 
 }
-/* body{
-    background-color: darkseagreen;
-} */
+body{
+    /* this given below adjustments only workds with body tag in css */
+    background: linear-gradient(skyblue,lightgreen);
+    /* background: linear-gradient(to right skyblue,lightgreen); */
+    /* background: linear-gradient(to left skyblue,lightgreen); */
+    /* background: linear-gradient(to bottom skyblue,lightgreen); */
+    /* background: linear-gradient(to top skyblue,lightgreen); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

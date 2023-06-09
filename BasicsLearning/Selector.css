@@ -27,3 +27,11 @@ h2{
 .normal{
     color: purple;
 }
+
+/* given below is the dragable selector in css */
+p[draggable="false"]{
+    color: rgb(27, 131, 176);
+}
+p[draggable="true"]{
+    color: rgb(43, 220, 81);
+}
