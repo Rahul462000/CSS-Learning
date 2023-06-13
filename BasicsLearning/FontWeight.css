@@ -1,0 +1,39 @@
+h1 {
+    font-family: 'Alkatra', cursive;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+}
+
+#helvetica {
+    font-family: Helvetica, sans-serif;
+}
+
+#arial {
+    font-family: Arial, sans-serif;
+}
+
+#serif {
+    font-family: serif;
+
+}
+
+#sans-serif {
+    font-family: sans-serif;
+
+}
+
+#cursive {
+    font-family: cursive;
+
+}
+
+#monospace {
+    font-family: monospace;
+
+}
+
+#fantacy {
+    font-family: fantasy;
+
+}

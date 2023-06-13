@@ -1,13 +1,18 @@
-h1{
-    font-weight: bolder;
-
+#pixel{
+    font-size: 20px;
 }
-p{
-    /* some basic style for fonts */
- font-size: 30px;  
- /* font-weight: bold;   */
- /* font-style: italic; */
- /* font-variant: small-caps; */
-font-family: 'Poppins', sans-serif;
-font-weight: 300;
+#point{
+    font-size: 20pt;
+}
+#em{
+    font-size: 1em;
+}
+#rem{
+    font-size: 1rem;
+}
+footer{
+    font-size: 12pt;
+}
+html{
+    font-size: xx-large;
 }

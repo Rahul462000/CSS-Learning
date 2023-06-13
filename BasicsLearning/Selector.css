@@ -1,4 +1,13 @@
+/* now is the universal selector '*'  */
+
+* {
+    color: red;
+}
+
+
+
 p{
+    
     color: crimson;
 }
 
@@ -24,6 +33,7 @@ h2{
     color: rgb(219, 75, 75);
 }
 
+
 .normal{
     color: purple;
 }
@@ -35,3 +45,5 @@ p[draggable="false"]{
 p[draggable="true"]{
     color: rgb(43, 220, 81);
 }
+
+

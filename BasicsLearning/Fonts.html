@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fonts</title>
     <link rel="stylesheet" href="Fonts.css">
-    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Poppins:wght@100&display=swap" rel="stylesheet">
   </head>
   <body>
     <h1>heading</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam vel,
-      magnam corrupti aliquid officiis repellendus illum neque, quas aperiam
-      ipsam dignissimos iusto, vitae quisquam natus doloribus unde? Quis, rerum
-      non!
-    </p>
+    <p id="pixel">1 Pixel is 1/96 of an Inch</p>
+    <p id="point">1 Point is 1/72 of an Inch</p>
+    <footer>
+      <!-- here footer is given a size and em is dependent on footer size means if footer is 40px and iside footer h2 is 2em then total size of h2 is 40 * 2 = 80px -->
+      <!-- on other hand rem doesnot depend on parent size but depend upon root element the html tag -->
+      <p id="em">1em is 100% the size of the parent element</p>
+      <p id="rem">1rem is 100% the size of the root element</p>
+    </footer>
   </body>
 </html>
