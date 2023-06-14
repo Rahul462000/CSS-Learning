@@ -1,0 +1,52 @@
+/* given below is the group selector */
+h1,h2{
+    color: blueviolet;
+}
+
+/* now given below is the child slector */
+/* in this we have parent and child selector */
+/* eg . selector > selector{
+    color:blue;
+    the first one is parent and second one is child } and hence child should be one dicendence down only from the parent */
+
+.box >.done{
+    color: firebrick;
+    /* here box is the parent element and done is the child element one down to parent element */
+
+}
+
+/* now the decendent combination */
+/* eg . selector selectorr{
+    color: blue;
+    it means first one is ancestor of second one name selectorr which is decendent with one space as long it has right anscestor it will have color blue
+} */
+
+.box li{
+    color: blue;
+}
+
+/* now the chaining selector */
+/* eg. selectorselector{
+    color: seagreen;
+} */
+
+li.done{
+    color: green;
+}
+/* here we have select the list element of class done with chaining selector method for a specific selection of the element
+ */
+
+ /* now the Combining Combiners */
+ /* eg. selector selectorselector{
+font-size: 2rem;  
+it is the combination of anscestor selector and chaining selector combination
+here selector is the anscestor and slectorselector is the chaining selector
+} */
+
+ul p.done{
+    font-size: 0.5rem;
+}
+
+
+
+
