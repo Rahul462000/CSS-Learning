@@ -1,0 +1,19 @@
+/* this is the correct order of which we have to write the css code */
+#outer-box{
+    background-color: purple;
+}
+.box{
+    background-color: blue;
+    padding: 10px;
+}
+.inner-box{
+    background: red;
+}
+p{
+    color: yellow;
+    margin: 0;
+    padding: 0;
+}
+.white-text{
+    color: white;
+}
