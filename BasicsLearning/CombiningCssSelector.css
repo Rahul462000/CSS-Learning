@@ -16,7 +16,7 @@ h1,h2{
 }
 
 /* now the decendent combination */
-/* eg . selector selectorr{
+/* eg . selector selectorr{ 
     color: blue;
     it means first one is ancestor of second one name selectorr which is decendent with one space as long it has right anscestor it will have color blue
 } */
