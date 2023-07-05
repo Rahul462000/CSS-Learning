@@ -1,0 +1,22 @@
+.fContainer {
+    border: 3px solid black;
+    display: flex;
+    /* height is compulsory when using verticaly alignment align-item=center */
+    height: 45vh;
+    /* flex direction by default row hota hai meine ise column mein diya hai */
+    /* flex-direction: column; */
+    /* to make your items align in center through horizontal direction */
+    /* justify-content: center; */
+    /* to make your items align in center through vertical direction but  */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fItem {
+    background-color: rgb(226, 132, 132);
+    border: 5px solid black;
+    width: 120px;
+    height: 120px;
+    margin: 12px;
+}

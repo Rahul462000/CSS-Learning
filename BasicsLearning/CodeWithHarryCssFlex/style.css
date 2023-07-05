@@ -1,0 +1,68 @@
+.fContainer {
+    /* now the container will be placed horizontally */
+    /* the by default direction of flexbox is horizontal */
+    /* by default allt the items inside the container are at  left side  */
+    border: 3px solid grey;
+    display: flex;
+    height: 45vh;
+    /* flex-direction is by default in row when display:flex is given */
+    /* flex-direction: column; */
+    /*row-reverse order showing the items but in row direction */
+    /* flex-direction: row-reverse; */
+    /*column-reverse order showing the items but in column direction */
+    /* flex-direction: column-reverse; */
+
+    /* important thing how to make your item in center postion horizontally we use */
+    /* justify-content: center; */
+    /* to make the items start from starting poistion (left side) */
+    /* justify-content: flex-start; */
+    /* to make the items start from end positon (right side) */
+    /* justify-content: flex-end; */
+    /* to make the space among the items evenly we use */
+    /* justify-content: space-evenly; */
+    /* to make the space between the items evenly we use */
+    /* justify-content: space-between; */
+
+    /* justify-content: space-around; */
+
+    /* to make the items align center in vertical positon we use */
+    /* align-items: center; */
+    /* to align items from starting poition horizontally (top position)  */
+    /* align-items: flex-start; */
+    /* to align items from ending poition horizontally (down position)  */
+    /* align-items: flex-end; */
+
+    /* to make the content more responsive in the mobile phone screens we use */
+    /* flex-wrap: wrap; */
+    /* to make the responsiveness in reverse direction */
+    /* flex-wrap: wrap-reverse; */
+
+}
+
+.fItem {
+    background-color: red;
+    border: 3px solid black;
+    margin: 12px;
+    width: 122px;
+    height: 122px;
+}
+
+.item1 {
+    /* selecting the individual items from the parent container  */
+    /* order will set the item into the next positon */
+    /* and jiska order sabse bada wo end mein ata hai */
+    order: 3;
+    /* flex grow will stretch the item according the given value */
+    /* by default flex-grow is 1 */
+    /* flex-grow: 2; */
+    /* flex shrink will not show any changes until the size of the screen/parentcontainer changes and when screen size change (shrink to smaller one the the item with fle-shrink property will shrink first ) */
+    /* flex-shrink: 3; */
+
+    /* alignment property for the child elements */
+    align-self: center;
+}
+
+.item4 {
+    /* as we know the item with higher order will move to the end */
+    order: 4;
+}
